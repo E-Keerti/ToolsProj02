@@ -14,4 +14,13 @@ public class AppTest
       int execepted =30;
       assertEquals(execepted,actual);
 	}
+	@Test
+	public void testWithNegative()
+	{
+		 ArithmeticOperation app =new ArithmeticOperation();
+	      int actual = app.sum(-10,-20);
+	      int execepted =-30;
+	      assertEquals(execepted,actual);
+		
+	}
 }
