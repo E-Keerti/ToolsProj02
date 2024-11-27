@@ -32,4 +32,13 @@ public class AppTest
 	      int execepted =-10;
 	      assertEquals(execepted,actual);
 	}
+	@Test
+	public void testWithZeroValue()
+	{
+		 ArithmeticOperation app =new ArithmeticOperation();
+	      int actual = app.sum(10,-20);
+	      int execepted =-10;
+	      assertEquals(execepted,actual);
+		
+	}
 }
